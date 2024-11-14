@@ -1,0 +1,84 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    width:100%;
+    background-color: black;
+    color:white;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 40px;
+}
+.logoside{
+    font-style: italic;
+
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    list-style: none;
+    cursor: pointer;
+}
+.rightside{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    cursor: pointer;
+}
+.rightside button{
+    background-color: pink;
+    color:black;
+    padding:10px 30px;
+    cursor: pointer;
+    
+}
+
+    
+
+    .logo-main-nav{
+        height: 60px;
+        padding: 5px;
+
+    }
+    .logoside h1{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        font-size: 30px;
+        position: absolute;
+        bottom:290px;
+        left:218px;
+
+
+        
+    }
+    .btn{position: absolute;
+        bottom:231px;
+        right:395px;
+        background-color: pink;
+        color:black;
+
+
+
+    }
+    .ice{
+        position: absolute;
+        bottom:370px;
+        right:400px;
+    }
+
+    .vishal{
+        border: 1px solid white;
+        padding: 5px
+    }
